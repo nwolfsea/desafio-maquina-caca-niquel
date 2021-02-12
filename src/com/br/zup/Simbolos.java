@@ -8,7 +8,8 @@ package com.br.zup;
 public enum Simbolos {
 
     BANANA(10), MORANGO(20), ESTRELA(40);
-    private int pontos;
+    public int pontos;
+
 
 
     public int getPontos() {
